@@ -1,0 +1,28 @@
+.container{
+width: 80%;
+margin: auto;
+}
+.container h1{
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 50px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row p{
+border-bottom: 1px solid #ccc;
+padding-bottom: 10px;
+}
+
+ .first:hover{
+    box-shadow: 10px 10px 10px #ccc;
+    cursor: pointer;
+}
+
+.first{
+    padding-top: 100px;
+}
